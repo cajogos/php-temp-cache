@@ -2,7 +2,7 @@
 	"name": "cajogos/php-temp-cache",
 	"type": "library",
 	"description": "Simple PHP caching system that uses a tmp folder in a Linux environment.",
-	"keywords": ["cache","caching"],
+	"keywords": ["cache","caching","temp"],
 	"homepage": "https://github.com/cajogos/php-temp-cache",
 	"license": "MIT",
 	"authors": [
