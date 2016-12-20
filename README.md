@@ -4,7 +4,7 @@ A simple PHP caching class that uses the temporary files (`/tmp/`) folder of a L
 
 ## Simple to Use
 
-The class has been written to be dead easy to use and should be familiar to anyone who has used any caching before. However, beware that the main aim of this cache is **not to be the fastest caching mechanism out there**, but to simplify the lives of those who just want to have a simple caching system in place to avoid hitting API limits, although from my experience it is well damn fast!
+The class has been written to be dead easy to use and should be familiar to anyone who has used any caching before. However, beware that the main aim of this cache is **not to be the fastest caching mechanism out there**, but to simplify the lives of those who just want to have a simple caching system in place to avoid hitting API limits, although from my experience it is pretty fast!
 
 ### Storing (put)
 
