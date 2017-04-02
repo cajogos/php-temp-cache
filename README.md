@@ -52,6 +52,8 @@ The class is **self-contained** so you can use it in any project you already hav
 
 ```php
 require_once 'classes/TempCache.php';
+
+use Cajogos\TempCache as TempCache;
 ```
 
 ## Contributors
