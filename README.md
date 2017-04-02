@@ -41,7 +41,7 @@ TempCache::remove($key);
 ```javascript
 {
 	"require": {
-		"cajogos/php-temp-cache": "1.0.1"
+		"cajogos/php-temp-cache": "1.1"
 	}
 }
 ```
