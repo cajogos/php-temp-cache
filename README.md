@@ -2,6 +2,8 @@
 
 A simple PHP caching class that uses the temporary files (`/tmp/`) folder of a Linux distribution.
 
+Main caching library of [Biscuit Link](https://biscuit.link) framework.
+
 ## Simple to Use
 
 The class has been written to be dead easy to use and should be familiar to anyone who has used any caching before. However, beware that the main aim of this cache is **not to be the fastest caching mechanism out there**, but to simplify the lives of those who just want to have a simple caching system in place to avoid hitting API limits, although from my experience it is pretty fast!
@@ -29,8 +31,8 @@ TempCache::remove($key);
 ## Features
 
 * No need to install extra plugins or PHP modules.
-* Works out of the box. (As long as your web server use has enough privileges).
-* Extremely use to implement to avoid hitting those API limits.
+* Works out of the box. (As long as your web server user has enough privileges).
+* Avoid hitting those API limits set by other websites.
 
 ## Getting Started
 
@@ -38,7 +40,7 @@ TempCache::remove($key);
 
 ### Using Composer
 
-```javascript
+```json
 {
 	"require": {
 		"cajogos/php-temp-cache": "1.1"
